@@ -114,5 +114,5 @@ venv.bak/
 
 ### NPM
 /node_modules
-
+/webapp/assets/scripts/webapp.js
 # End of https://www.gitignore.io/api/python,visualstudiocode

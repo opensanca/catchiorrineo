@@ -1,6 +1,6 @@
-import accountReducer from './account';
-import adoptionReducer from './adoption';
-import animalReducer from './animal';
+import accountReducer from './account/reducer';
+import adoptionReducer from './adoption/reducer';
+import animalReducer from './animal/reducer';
 
 import { createStore, combineReducers } from 'redux'
 
