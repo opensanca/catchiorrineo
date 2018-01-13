@@ -1,5 +1,9 @@
-flask
 mongoengine
 pytest
 pytest-cov
 coveralls
+flask
+python-dotenv
+python-jose-cryptodome
+flask-cors
+six
