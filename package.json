@@ -1,0 +1,33 @@
+{
+  "name": "catchiorrineo",
+  "version": "1.0.0",
+  "description": "Um sistema para encontrar seu catiorrineo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opensanca/catchiorrineo.git"
+  },
+  "keywords": [
+    "mongo",
+    "python",
+    "javascript",
+    "node",
+    "flask"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opensanca/catchiorrineo/issues"
+  },
+  "homepage": "https://github.com/opensanca/catchiorrineo#readme",
+  "devDependencies": {
+    "react": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-redux": "^4.0.8",
+    "redux": "^3.7.2"
+  }
+}
