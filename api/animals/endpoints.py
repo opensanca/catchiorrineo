@@ -13,7 +13,7 @@ def animals(): return "Hello animals world!"
 def create_animal():
     if not request.json:
         abort(400)
-    data = request.json
+    data = request.get_json()
     animal_doc = Animal(**data)
     return {}
 
