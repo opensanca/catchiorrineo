@@ -1,5 +1,7 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 from mongoengine import connect
+
 import settings
 from api.animals.endpoints import ANIMAL
 from .common.exceptions import InvalidInput
@@ -19,6 +21,10 @@ def handle_invalid_input(error):
 
 def create_app():
     app = Flask(__name__)
+
+    CORS(app)
+
     app.register_blueprint(ANIMAL)
     app.register_error_handler(InvalidInput, handle_invalid_input)
+
     return app
