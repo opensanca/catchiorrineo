@@ -14,7 +14,7 @@ def test_animals(client):
     animal.save()
     response = client.get(url_for('animal.animals'))
     assert response.status_code == HTTP_STATUS_CODES['OK']
-    data = response.json
+    data = json.loads(response.data)
     assert len(data) == 1
     assert data[0]['id'] == str(animal.id)
 
@@ -55,7 +55,7 @@ def test_update_animal(client):
     params = {'animal_id': animal.id}
     response = client.put(url_for('animal.update_animal', **params),
                           data=mock_data, headers=headers)
-    data = response.json
+    data = json.loads(response.data)
 
     assert response.status_code == HTTP_STATUS_CODES['OK']
     assert data == str(animal.id)
