@@ -10,12 +10,12 @@
 Na pasta `docs` existem protótipos que devem auxiliar no desenvolvimento do
 projeto.
 
-Dê uma olhada nas *issues* do projeto caso precise de ideias para contribuir.
+Dê uma olhada nas _issues_ do projeto caso precise de ideias para contribuir.
 Também é possível ingressar no Slack do OpenSanca
-(https://slack-opensanca.herokuapp.com/) e se inscrever no canal `#grupy-aqa`,
+(https://slack-opensanca.herokuapp.com/) ou no telegram do grupy (https://t.me/grupyaqa),
 onde o pessoal que está contribuindo no projeto costuma trocar ideias e marcar
 encontros.
 
-No início do projeto foi definido que as *issues* e toda a documentação seriam
-escritas em *Português do Brasil*, mas todo o código-fonte do projeto (isso inclui
-mensagens de commit) devem ser escritas em *Inglês*.
+No início do projeto foi definido que as _issues_ e toda a documentação seriam
+escritas em _Português do Brasil_, mas todo o código-fonte do projeto (isso inclui
+mensagens de commit) devem ser escritas em _Inglês_.
